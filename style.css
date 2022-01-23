@@ -1,0 +1,117 @@
+        body {
+            background-color: hsl(217, 54%, 11%);
+            font-size: 18px;
+        }
+        
+        .card {
+            background-color: hsl(216, 50%, 16%);
+            width: 300px;
+            margin: 100px auto;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 3px rgb(39, 38, 38);
+        }
+        
+        .card>* {
+            color: hsl(215, 51%, 70%);
+            font-family: "Outfit", sans-serif;
+        }
+        
+        .card>h2 {
+            font-weight: 600;
+            font-size: 24px;
+            color: hsl(0, 0%, 100%);
+        }
+        
+        .card>p {
+            font-weight: 300;
+        }
+        
+        .image-container {
+            background-color: aqua;
+            border-radius: 8px;
+            height: 300px;
+            position: relative;
+        }
+        
+        .card-image {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+        
+        .card-image:hover {
+            opacity: 0.5;
+            cursor: pointer;
+        }
+        
+        .cyan-overlay:hover {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: hsl(178, 100%, 50%);
+            border-radius: 8px;
+            opacity: 0.2
+        }
+        /*why this doesn't work  */
+        
+        .card>.container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        
+        .card-price {
+            display: inline;
+            padding: 3px;
+            font-weight: 400;
+            color: hsl(178, 100%, 50%);
+        }
+        
+        .card-expiring-time {
+            display: inline;
+            padding: 3px;
+            font-weight: 300;
+        }
+        
+        #spacer {
+            height: 2px;
+            border-style: none;
+            background-color: hsl(215, 32%, 27%);
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+        
+        .creator-container {
+            display: flex;
+            padding-top: 20px;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        
+        .creator-image {
+            width: 42px;
+            height: 35px;
+            padding: 5px 0;
+            border-radius: 50%;
+            border: 2px solid hsl(0, 0%, 100%);
+        }
+        
+        .card-creator {
+            padding-left: 20px;
+            font-size: 16px;
+        }
+        
+        .card-creator>span {
+            color: hsl(0, 0%, 100%);
+        }
+        
+        .card-creator>span:hover,
+        .card>h2:hover {
+            color: hsl(178, 100%, 50%);
+            cursor: pointer;
+        }
+        
+        @media only screen and (max-width: 700px) {}
