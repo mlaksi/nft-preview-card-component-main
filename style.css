@@ -113,5 +113,3 @@
             color: hsl(178, 100%, 50%);
             cursor: pointer;
         }
-        
-        @media only screen and (max-width: 700px) {}
